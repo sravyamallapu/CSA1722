@@ -1,0 +1,29 @@
+% Facts about planets
+planet(mercury).
+planet(venus).
+planet(earth).
+planet(mars).
+planet(jupiter).
+planet(saturn).
+planet(uranus).
+planet(neptune).
+
+% Distances from the sun (in million kilometers)
+distance(mercury, 57.9).
+distance(venus, 108.2).
+distance(earth, 149.6).
+distance(mars, 227.9).
+distance(jupiter, 778.6).
+distance(saturn, 1433.5).
+distance(uranus, 2872.5).
+distance(neptune, 4495.1).
+
+% Moons of planets
+moons(mercury, 0).
+moons(venus, 0).
+moons(earth, 1).
+moons(mars, 2).
+moons(jupiter, 79).
+moons(saturn, 82).
+moons(uranus, 27).
+moons(neptune, 14).
