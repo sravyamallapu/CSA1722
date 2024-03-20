@@ -1,0 +1,14 @@
+% Facts representing the database
+dob(john, '2000-05-15').
+dob(susan, '1995-10-20').
+dob(michael, '1988-03-03').
+dob(lisa, '1976-12-28').
+dob(steven, '1990-08-10').
+
+% Query to retrieve the date of birth (DOB) for a given person
+query_dob(Name, DOB) :-
+    dob(Name, DOB).
+
+% Query to check if a person is in the database
+is_person(Name) :-
+    dob(Name, _).
